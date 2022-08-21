@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Máy Tính</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__text" id="input">0</div>
+        </div>
+        <div class="box">
+            <ul class="box__row">
+                <li class="row row--1" id="clear">AC</li>
+                <li class="row row--1 operators__delete">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </li>
+                <li class="row row--1 percent">%</li>
+                <li class="row row--1 operators__div">
+                    <i class="fa-solid fa-divide"></i>
+                </li>
+            </ul>
+            <ul class="box__row">
+                <li class="row row__number">7</li>
+                <li class="row row__number">8</li>
+                <li class="row row__number">9</li>
+                <li class="row row--1 operators__core">
+                    <i class="fa-solid fa-xmark"></i>
+                </li>
+            </ul>
+            <ul class="box__row">
+                <li class="row row__number">4</li>
+                <li class="row row__number">5</li>
+                <li class="row row__number">6</li>
+                <li class="row row--1 operators__minus">
+                    <i class="fa-solid fa-minus"></i>
+                </li>
+            </ul>
+            <ul class="box__row">
+                <li class="row row__number">1</li>
+                <li class="row row__number">2</li>
+                <li class="row row__number">3</li>
+                <li class="row row--1 operators__plus">
+                    <i class="fa-solid fa-plus"></i>
+                </li>
+            </ul>
+            <ul class="box__row">
+                <li class="row rotate">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                </li>
+                <li class="row row__number">0</li>
+                <li class="row row__number--comma">
+                    ,
+                </li>
+                <li class="row row--1 btn" id="result">
+                    <i class="fa-solid fa-equals"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
